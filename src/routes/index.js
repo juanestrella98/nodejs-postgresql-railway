@@ -5,7 +5,7 @@ const{getWorkouts, postWorkout, getWorkoutById, deleteWorkout, updateWorkout} = 
 const{getMebers, postmeber, getMeberById, deleteMember, updateMember} = require("../controllers/member.controller");
 const { getRecords, getRecordsByWorkoutId, postRecord, deleteRecord, updateRecord } = require('../controllers/records.controller');
 
-router.get('/', getWorkouts);
+router.get('/workouts', getWorkouts);
 
 router.post('/workouts', postWorkout);
 
