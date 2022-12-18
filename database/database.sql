@@ -43,4 +43,4 @@ create table records(
     on delete cascade
 );
 
-insert into records values('fff--ffff', 9, '145 reps');
+insert into records values('fff--ffff', 1, '145 reps');
